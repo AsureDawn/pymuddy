@@ -1,0 +1,16 @@
+pymuddy will be a mud client implementing the GMCP protocol
+
+For the moment, I have the following implemented:
+ * The skeleton for handling messages from the server
+
+What I still need to do:
+ * Implement the base mud client logic
+    (is this hard? is there a base I can build on?)
+ * Build the client request skeleton
+ * Create functions that actually perform tasks with the data from the server
+ * Create a UI (planning on using GTK/GtkBuilder)
+ * Hook up the backend to the UI
+ * Anything else I may have forgotten ;-)
+
+I haven't decided on a license yet; I'm fairly flexible, though.
+If you'd like to recommend one to me, just send me a mail. ^.^
